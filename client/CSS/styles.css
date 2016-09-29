@@ -1,25 +1,122 @@
-#shape{
-    margin:auto;
+#container{
+     margin:auto;
     margin-left:center;
     margin-top:100px;
+    height:800px;
+    width:800px;
+    background-color:lightgreen;
+    position:relative;
+    
+}
+#wrapper{
+    margin:auto;
+    margin:center;
+    left:0;
+    top:0;
+    
+}
+.mycanvas1{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.connectingLines{
+    background-color: white;
+}
+#incorrect{
+    font-size: 40px;
+    color: white;
+}
+.myCanvas{
     height:400px;
     width:400px;
     background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
 }
 .point{
-    height:10px;
-    width:10px;
+    height:20px;
+    width:20px;
     margin-left:0px;
     position:relative;
     border-radius:50%;
+    background-color:black;
+    position:absolute;
+    opacity:0.5;
+    z-index:1000;
+}
+#point1{
+    left:-10px;
+    top:-10px;
+    
+}
+#point2{
+    left:100px;
+    top:-10px;
+}
+#point3{
+    left:200px;
+    top:-10px;
+}
+#point4{
+    left:300px;
+    top:-10px;
+}
+#point5{
+    left:390px;
+    top:-10px;
+}
+#point6{
+    left:390px;
+    top:100px;
+}
+#point7{
+    left:390px;
+    top:200px;
+}
+#point8{
+    left:390px;
+    top:300px;
+}
+#point9{
+    left:390px;
+    top:390px;
+}
+#point10{
+    left:300px;
+    top:390px;
+}
+#point11{
+    left:200px;
+    top:390px;
+}
+#point12{
+    left:100px;
+    top:390px;
+}
+#point13{
+    left:-10px;
+    top:390px;
+}
+#point14{
+    left:-10px;
+    top:300px;
+}
+#point15{
+    left:-10px;
+    top:200px;
+}
+#point16{
+    left:-10px;
+    top:100px;
 }
 
-#point1{
-    left:452px;
-    top:102px;
+#checkme{
+    left:46%;
+    bottom:100px;
     position:absolute;
-}
-button{
-    margin-left:590px;
-    margin-top:30px;
 }
